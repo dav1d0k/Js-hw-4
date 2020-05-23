@@ -74,7 +74,3 @@ function findCarById(carId) {
 function getDesc(car) {
     return ` მწარმოებელი: ${car.name} \n ფერი: ${car.color} \n მოდელი: ${car.model} \n გამოშვების წელი: ${car.year} \n ცხენის ძალა ${car.hp} \n ფასი: ${car.price}$`
 }
-
-price() {
-    alert("სამწუხაროდ ამ ფასში მანქანას ვერ შეიძენთ :(");
-}
